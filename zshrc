@@ -83,6 +83,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias serve='python -m SimpleHTTPServer'
+alias server='ssh querkmachine@greysadventures.com'
+eval $(thefuck --alias)
+
 # Disable globbing on the remote path.
 alias scp='noglob scp_wrap'
 function scp_wrap {
@@ -94,9 +98,3 @@ function scp_wrap {
   esac; done
   command scp "${(@)args}"
 }
-
-alias serve='python -m SimpleHTTPServer'
-alias server='ssh querkmachine@greysadventures.com'
-alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
-
-export PATH="$HOME/.yarn/bin:$PATH"
