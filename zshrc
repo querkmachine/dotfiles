@@ -101,7 +101,7 @@ function scp_wrap {
 
 # Tiny Care Terminal settings
 export TTC_BOTS='tinycarebot,selfcare_bot,magicrealismbot'
-export TTC_REPOS='~/Sites'
+export TTC_REPOS='~/Sites,~,~/Sites/severnbronies/wp-content/themes,~/Sites/severnbronies/wp-content/plugins'
 export TTC_WEATHER='Bristol'
 export TTC_CELSIUS=true
 export TTC_APIKEYS=false
