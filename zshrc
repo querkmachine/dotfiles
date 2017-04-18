@@ -85,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias serve='python -m SimpleHTTPServer'
 alias server='ssh querkmachine@greysadventures.com'
-eval $(thefuck --alias)
+# eval $(thefuck --alias)
 
 # Disable globbing on the remote path.
 alias scp='noglob scp_wrap'
@@ -98,3 +98,10 @@ function scp_wrap {
   esac; done
   command scp "${(@)args}"
 }
+
+# Tiny Care Terminal settings
+export TTC_BOTS='tinycarebot,selfcare_bot,magicrealismbot'
+export TTC_REPOS='~/Sites'
+export TTC_WEATHER='Bristol'
+export TTC_CELSIUS=true
+export TTC_APIKEYS=false
