@@ -84,6 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias serve='python -m SimpleHTTPServer'
+alias servephp='php -S localhost:8000'
 alias server='ssh querkmachine@greysadventures.com'
 # eval $(thefuck --alias)
 
