@@ -1,0 +1,19 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "a4b76120-c8dc-430d-b161-3f57df2bd8d6"
+    html: {}
+  core:
+    closeEmptyWindows: false
+    projectHome: "/Users/Kim/Sites"
+    telemetryConsent: "limited"
+  editor:
+    fontFamily: "Fira Code"
+    scrollPastEnd: true
+    showInvisibles: true
+    softTabs: false
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "bda5b637-9b12-44c9-97ea-9741329858c3"
+  welcome:
+    showOnStartup: false
