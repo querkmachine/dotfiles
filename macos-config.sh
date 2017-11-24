@@ -94,7 +94,6 @@ for app in "cfprefsd" \
 	"Dock" \
 	"Finder" \
 	"Safari" \
-	"SizeUp" \
 	"SystemUIServer" \
 	"Terminal" \
 	"Tweetbot"; do
