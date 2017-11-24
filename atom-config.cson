@@ -15,5 +15,9 @@
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "bda5b637-9b12-44c9-97ea-9741329858c3"
+  "spell-check":
+    locales: [
+      "en-GB"
+    ]
   welcome:
     showOnStartup: false
