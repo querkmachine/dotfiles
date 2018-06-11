@@ -49,7 +49,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sublime gulp)
+plugins=(git sublime gulp zsh-iterm-touchbar)
 
 # User configuration
 
@@ -100,9 +100,5 @@ function scp_wrap {
   command scp "${(@)args}"
 }
 
-# Tiny Care Terminal settings
-export TTC_BOTS='tinycarebot,selfcare_bot,magicrealismbot'
-export TTC_REPOS='~/Sites,~,~/Sites/severnbronies/wp-content/themes,~/Sites/severnbronies/wp-content/plugins'
-export TTC_WEATHER='Bristol'
-export TTC_CELSIUS=true
-export TTC_APIKEYS=false
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
