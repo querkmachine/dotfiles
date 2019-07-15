@@ -24,6 +24,9 @@
 [merge]
 	log = true
 [format]
-	pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr) %C(blue)%ci%Creset
+	pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr) %C(blue)%ci%Creset %gd
 [push]
 	default = matching
+	followTags = true
+[pull]
+	rebase = true

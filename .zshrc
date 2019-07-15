@@ -85,7 +85,9 @@ source $ZSH/oh-my-zsh.sh
 
 alias serve='python -m SimpleHTTPServer'
 alias servephp='php -S localhost:8000'
-alias server='ssh querkmachine@greysadventures.com'
+alias server='ssh querkmachine@berly.kim'
+alias pi='ssh pi@192.168.0.99'
+alias cat='bat'
 # eval $(thefuck --alias)
 
 # Disable globbing on the remote path.
@@ -102,3 +104,7 @@ function scp_wrap {
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# Ruby exports
+
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
