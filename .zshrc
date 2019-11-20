@@ -88,7 +88,11 @@ alias servephp='php -S localhost:8000'
 alias server='ssh querkmachine@berly.kim'
 alias pi='ssh pi@192.168.0.99'
 alias cat='bat'
-# eval $(thefuck --alias)
+alias clean-node-modules='find . -name "node_modules" -type d -prune -exec rm -rf '{}' +'
+
+npm set prefix ~/.npm
+PATH="$HOME/.npm/bin:$PATH"
+PATH="./node_modules/.bin:$PATH"
 
 # Disable globbing on the remote path.
 alias scp='noglob scp_wrap'
