@@ -16,7 +16,7 @@
 	ffs = flow feature start
 	fff = flow feature finish
 [core]
-	excludesfile = ~/dotfiles/gitignore_global
+	excludesfile = ~/dotfiles/.gitignore_global
 	whitespace = fix,space-before-tab,tab-in-indent,trailing-space
 	editor = nano
 [color]
