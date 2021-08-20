@@ -37,6 +37,9 @@ Temporary Items
 # proportion of contributors will probably not be using Sublime Text
 # *.sublime-project
 
+# Nova configuration files
+.nova/
+
 # SFTP configuration file
 sftp-config.json
 
