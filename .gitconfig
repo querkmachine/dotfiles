@@ -1,20 +1,10 @@
 # This is Git's per-user configuration file.
 [user]
-	email = kimandthemachine@gmail.com
+	email = hi+github@berly.kim
 	name = Kimberly Grey
 [alias]
 	lg = log --graph --oneline --color
-	d = diff
 	st = status
-	ci = commit
-	co = checkout
-	br = branch
-	bi = bisect
-	cim = commit -m
-	cia = commit -am
-	f = flow
-	ffs = flow feature start
-	fff = flow feature finish
 [core]
 	excludesfile = ~/dotfiles/.gitignore_global
 	whitespace = fix,space-before-tab,tab-in-indent,trailing-space
