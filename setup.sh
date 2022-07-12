@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # Remove files we're gonna replace
-rm ~/.bashrc
 rm ~/.gitconfig
 rm ~/.gitignore_global
 rm ~/.p10k.zsh
@@ -9,7 +8,6 @@ rm ~/.profile
 rm ~/.zshrc
 
 # Symlink files from this repo to those locations
-ln -s ~/dotfiles/.bashrc ~/.bashrc
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/dotfiles/.p10k.zsh ~/.p10k.zsh
