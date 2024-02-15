@@ -1,23 +1,21 @@
-# This is Git's per-user configuration file.
 [user]
 	email = hi+github@berly.kim
-	name = Kimberly Grey
+	name = beeps
 [alias]
-	lg = log --graph --oneline --color
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	st = status
 [core]
-	excludesfile = ~/dotfiles/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	whitespace = fix,space-before-tab,tab-in-indent,trailing-space
 	editor = nano
 [color]
 	ui = auto
 [merge]
 	log = true
-[format]
-	pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr) %C(blue)%ci%Creset %gd
 [push]
 	default = matching
 	followTags = true
+	autoSetupRemote = true
 [pull]
 	rebase = true
 [init]
