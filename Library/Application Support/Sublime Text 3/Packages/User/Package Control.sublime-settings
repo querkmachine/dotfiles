@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Better CoffeeScript",
+		"BracketHighlighter",
+		"ColorHints",
+		"Emmet",
+		"JSX",
+		"Package Control",
+		"PHP-Twig",
+		"Random Everything",
+		"Razor",
+		"Sass",
+		"SideBarEnhancements",
+		"Stencil",
+		"sublime-nunjucks",
+		"Vue Syntax Highlight",
+	],
+	"repositories":
+	[
+		"https://github.com/DJviolin/sublime-nunjucks",
+		"https://github.com/DJviolin/sublime-nunjucks"
+	],
+}

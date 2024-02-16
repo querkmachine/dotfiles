@@ -1,0 +1,14 @@
+{
+	"font_face": "Fira Code",
+	"font_options":
+	[
+		"dlig"
+	],
+	"font_size": 20,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Default.sublime-theme",
+	"index_files": true,
+}

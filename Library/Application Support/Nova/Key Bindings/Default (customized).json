@@ -1,0 +1,22 @@
+{
+  "menuItems" : {
+    "CopyLinesDown" : {
+      "shortcut" : "cmd-shift-d"
+    },
+    "CopyLinesUp" : {
+
+    },
+    "NewLocalTerminal" : {
+      "shortcut" : "cmd-t"
+    },
+    "NewTab" : {
+
+    },
+    "OpenQuicklyInFiles" : {
+      "shortcut" : "cmd-p"
+    },
+    "Print" : {
+
+    }
+  }
+}

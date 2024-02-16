@@ -1,0 +1,18 @@
+{
+  "emmet.bem" : true,
+  "emmet.shortHex" : true,
+  "prettier.format-on-save" : true,
+  "prettier.format-on-save.ignore-remote" : true,
+  "random.colorsCSSFormatted" : false,
+  "random.defaultNumberRange" : "0,100",
+  "random.disableNumberRangePrompt" : false,
+  "random.domainTLDs" : [
+
+  ],
+  "random.floatDecimalPlaces" : 12,
+  "random.generateTimezones" : "full",
+  "random.hexColorCapitalize" : false,
+  "random.promptNumberRange" : true,
+  "random.stringLength" : 32,
+  "random.useRealEmailDomains" : true
+}
