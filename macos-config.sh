@@ -27,6 +27,9 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Europe/Brussels" > /dev/null
 
+# Set accent color to green
+defaults write NSGlobalDomain AppleAccentColor -int 3
+
 # Set text highlight color to beeps brand light green
 defaults write NSGlobalDomain AppleHighlightColor -string "0.701960 1 0.701960"
 
