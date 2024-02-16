@@ -8,10 +8,12 @@
 	excludesfile = ~/.gitignore
 	whitespace = fix,space-before-tab,tab-in-indent,trailing-space
 	editor = nano
+	pager = delta
 [color]
 	ui = auto
 [merge]
 	log = true
+	conflictstyle = diff3
 [push]
 	default = matching
 	followTags = true
@@ -20,3 +22,12 @@
 	rebase = true
 [init]
 	defaultBranch = main
+[delta]
+	navigate = true
+	light = false
+	line-numbers = true
+	side-by-side = true
+[interactive]
+	diffFilter = delta --color-only
+[diff]
+	colorMoved = default

@@ -27,12 +27,13 @@ brew install zsh
 Installs:
 
 - [bat](https://github.com/sharkdp/bat), a cooler version of `cat`
+- [git-delta](https://github.com/dandavison/delta), nicer git diffs, goes well with bat
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k), my preferred zsh theme
-- [GNU Stow](https://www.gnu.org/software/stow/), a symlinker tool
+- [stow](https://www.gnu.org/software/stow/), a symlinker tool
 - [zoxide](https://github.com/ajeetdsouza/zoxide), it's `cd` with loose matching
 
 ```sh
-brew install bat powerlevel10k stow zoxide
+brew install bat git-delta powerlevel10k stow zoxide
 ```
 
 ### Clone this repo into the home directory
