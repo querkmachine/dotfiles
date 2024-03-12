@@ -17,5 +17,9 @@
 	"rulers": [
 		80
 	],
-	"highlight_modified_tabs": true
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
 }
