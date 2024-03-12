@@ -67,3 +67,38 @@ sh macos-config.sh
 ```
 
 There might be a few warnings and maybe a few errors (it's not uncommon for these commands to change between macOS versions) but the script should keep running regardless. 
+
+## Other stuff
+
+### More Homebrewing
+
+There are other Homebrew utilities I tend to have installed but which aren't required for getting started on a new computer. These are here just so I have an easy reference for them.
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp), for downloading video
+- [ffmpeg](https://ffmpeg.org/), for video and audio conversion
+- [imagemagick](https://imagemagick.org/), for image conversion
+- [gitmoji](https://github.com/carloscuesta/gitmoji-cli), for annotating git commits with ✨fun✨
+- [nvm](https://github.com/nvm-sh/nvm), for managing Node versions
+- [pyenv](https://github.com/pyenv/pyenv), for managing Python versions
+
+```sh
+brew install yt-dlp ffmpeg imagemagick gitmoji nvm pyenv
+```
+
+Casks are more akin to full desktop applications rather than command line programs, and need to be installed slightly differently. This command installs:
+
+- [1Password](https://1password.com/)
+- [Raycast](https://raycast.com/)
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
+- [Arc](https://arc.net/)
+- [Firefox](https://www.mozilla.org/firefox/)
+- [Chrome](https://www.google.com/chrome/)
+- [Edge](https://www.microsoft.com/en-us/edge)
+- [Discord](https://discord.com/)
+- [Telegram](https://macos.telegram.org/) (macOS version)
+- [Nova](https://nova.app)
+- [Sublime Text](https://www.sublimetext.com/)
+
+```sh
+brew install --cask 1password raycast karabiner-elements arc firefox google-chrome microsoft-edge discord telegram nova sublime-text
+```
