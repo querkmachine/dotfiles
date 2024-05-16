@@ -66,7 +66,7 @@ cd ~/dotfiles
 sh macos-config.sh
 ```
 
-There might be a few warnings and maybe a few errors (it's not uncommon for these commands to change between macOS versions) but the script should keep running regardless. 
+There might be a few warnings and maybe a few errors (it's not uncommon for these commands to change between macOS versions) but the script should keep running regardless.
 
 ## Other stuff
 
@@ -80,9 +80,10 @@ There are other Homebrew utilities I tend to have installed but which aren't req
 - [gitmoji](https://github.com/carloscuesta/gitmoji-cli), for annotating git commits with ✨fun✨
 - [nvm](https://github.com/nvm-sh/nvm), for managing Node versions
 - [pyenv](https://github.com/pyenv/pyenv), for managing Python versions
+- [chruby](https://github.com/postmodern/chruby), for managing Ruby versions
 
 ```sh
-brew install yt-dlp ffmpeg imagemagick gitmoji nvm pyenv
+brew install yt-dlp ffmpeg imagemagick gitmoji nvm pyenv chruby
 ```
 
 Casks are more akin to full desktop applications rather than command line programs, and need to be installed slightly differently. This command installs:
