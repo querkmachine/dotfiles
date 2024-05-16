@@ -43,7 +43,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# Automatically invoke nvm if the directory includes an .nvmrc file
+# Automatically switch Node version if .nvmrc found
 autoload -U add-zsh-hook
 
 load-nvmrc() {
@@ -67,6 +67,14 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-# Automatically switch Ruby version if .ruby-version found
+# Initialise chruby
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+
+# Automatically switch Ruby version if .ruby-version found
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+
+# Initialise pyenv
+PATH=$(pyenv root)/shims:$PATH
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
