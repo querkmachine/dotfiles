@@ -11,9 +11,9 @@
 	[
 		"dlig"
 	],
-	"font_size": 20,
+	"font_size": 17,
 	"theme": "Default.sublime-theme",
-	"index_files": true,
+	"index_files": false,
 	"rulers": [
 		80
 	],
