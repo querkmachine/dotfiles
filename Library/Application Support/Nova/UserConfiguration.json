@@ -1,4 +1,5 @@
 {
+  "com.neelyadav.Stylelint.fallback.behavior" : "silent",
   "emmet.bem" : true,
   "emmet.shortHex" : true,
   "prettier.format-on-save" : true,
