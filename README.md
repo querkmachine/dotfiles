@@ -68,7 +68,7 @@ sh macos-config.sh
 
 There might be a few warnings and maybe a few errors (it's not uncommon for these commands to change between macOS versions) but the script should keep running regardless.
 
-## Other stuff
+## Downloading _all the things_
 
 ### More Homebrewing
 
@@ -103,3 +103,21 @@ Casks are more akin to full desktop applications rather than command line progra
 ```sh
 brew install --cask 1password raycast karabiner-elements arc firefox google-chrome microsoft-edge discord telegram nova sublime-text
 ```
+
+## Updating
+
+To update the dotfiles, simply pull the latest changes to the repo and run the stow command again.
+
+```sh
+cd ~/dotfiles
+git pull origin main
+stow .
+```
+
+Updates for Brew, Ruby, npm and macOS have all been bundled into a single command within the `.zshrc` file.
+
+```sh
+update
+```
+
+This will ask for sudo permissions as they are required for updating some Rubygems and macOS itself.
