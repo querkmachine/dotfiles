@@ -4,7 +4,7 @@ My dotfiles. Aka, my preferred configuration for things on my Macs.
 
 That doesn't mean I use identical configs everywhere (differentiation can be nice!) but most all of these things are kept the same for smooth operation.
 
-## Using the dotfiles (and other terminal things I like)
+## Pre-preparation
 
 ### Install Homebrew
 
@@ -14,13 +14,31 @@ Having [Homebrew](https://brew.sh/) will make your life a lot easier going forwa
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Install zsh
+### Install zsh (macOS 10.14 and older only) 
 
 zshell is now default with macOS and this step is probably skippable for future me, but just in case it's not around for some reason:
 
 ```sh
 brew install zsh
 ```
+
+### Install oh-my-zsh
+
+[oh-my-zsh](https://ohmyz.sh/) is a framework for making zshell nicer.
+
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### Install iTerm2
+
+[iTerm2](https://iterm2.com/) is just better than the default Terminal.app. Better to install that first and switch to it for the next steps.
+
+```sh
+brew install --cask iterm2
+```
+
+## Using the dotfiles (and other terminal things I like)
 
 ### Install basically everything through Homebrew
 
@@ -36,15 +54,12 @@ Installs:
 brew install bat git-delta powerlevel10k stow zoxide
 ```
 
-### Clone this repo into the home directory
+Skip following any of the powerlevel10k set up instructions. A p10k configuration will be imported in the next steps.
+
+### Clone this repo and run Stow
 
 ```sh
-git clone git@github.com:querkmachine/dotfiles.git ~/dotfiles
-```
-
-### Run Stow
-
-```sh
+git clone https://github.com/querkmachine/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow .
 ```
@@ -59,7 +74,7 @@ macOS has an extra layer of security when touching parts of the OS that even `su
 
 To overcome them, go to System Settings → Privacy → Full Disk Access and grant whatever terminal application is being used that permission. The terminal will need to be restarted.
 
-### Run the script
+### Run the setup script
 
 ```sh
 cd ~/dotfiles
@@ -72,7 +87,7 @@ There might be a few warnings and maybe a few errors (it's not uncommon for thes
 
 ### More Homebrewing
 
-There are other Homebrew utilities I tend to have installed but which aren't required for getting started on a new computer. These are here just so I have an easy reference for them.
+There are other Homebrew utilities I tend to have installed. They aren't required for getting started on a new computer, but they are referenced by the zsh configuration, so probably a good idea to have them anyway.
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp), for downloading video
 - [ffmpeg](https://ffmpeg.org/), for video and audio conversion
