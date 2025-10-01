@@ -179,7 +179,7 @@ defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
 defaults write com.apple.dock show-process-indicators -bool true
 
 # Show only open applications in the Dock
-defaults write com.apple.dock static-only -bool true
+defaults write com.apple.dock static-only -bool false
 
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
@@ -199,6 +199,10 @@ defaults write com.apple.dock expose-animation-duration -float 0.1
 # Don’t automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 
+brew install dockutil
+dockutil --remove all
+dockutil --add "~/Downloads/" --view fan --display stack --sort datemodified --position beginning --section others
+dockutil --add "/Applications" --before "Downloads"
 
 ##
 ## Hot Corners
