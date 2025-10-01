@@ -2,16 +2,18 @@
 	"bootstrapped": true,
 	"installed_packages":
 	[
-		"Better CoffeeScript",
 		"BracketHighlighter",
+		"Catppuccin color schemes",
+		"CoffeeScript",
 		"ColorHints",
 		"Emmet",
 		"JSX",
+		"Nunjucks",
 		"Package Control",
 		"Random Everything",
 		"Sass",
 		"SideBarEnhancements",
-		"Vue Syntax Highlight",
+		"Vue",
 	],
 	"in_process_packages":
 	[
