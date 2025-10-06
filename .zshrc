@@ -78,3 +78,6 @@ PATH=$(pyenv root)/shims:$PATH
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# Add Node to $PATH
+export PATH="/opt/homebrew/opt/node@22/bin:$PATH"

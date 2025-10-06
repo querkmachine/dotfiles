@@ -49,9 +49,10 @@ Installs:
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k), my preferred zsh theme
 - [stow](https://www.gnu.org/software/stow/), a symlinker tool
 - [zoxide](https://github.com/ajeetdsouza/zoxide), it's `cd` with loose matching
+- [node](https://nodejs.org/) v22
 
 ```sh
-brew install bat git-delta powerlevel10k stow zoxide
+brew install bat git-delta node@22 powerlevel10k stow zoxide
 ```
 
 Skip following any of the powerlevel10k set up instructions. A p10k configuration will be imported in the next steps.
