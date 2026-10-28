@@ -38,6 +38,9 @@ eval "$(zoxide init --cmd cd zsh)"
 alias cat="bat"
 alias update="sudo softwareupdate -i -a; sudo gem update --system; sudo gem update; sudo gem cleanup; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g"
 
+# Add Node to $PATH
+export PATH="/opt/homebrew/opt/node@22/bin:$PATH"
+
 # Load nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -79,5 +82,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-# Add Node to $PATH
-export PATH="/opt/homebrew/opt/node@22/bin:$PATH"
+# pnpm
+export PNPM_HOME="/Users/kim/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
