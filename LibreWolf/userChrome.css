@@ -1,0 +1,20 @@
+* {
+	border-radius: 0px !important;
+	font-family: "iA Writer Duo S";
+}
+
+#TabsToolbar {
+	display: none !important;
+}
+
+#sidebar-box {
+	padding-inline-start: 0 !important;
+}
+
+#sidebar-panel-header {
+	display: none !important;
+}
+
+:root[lwtheme] #sidebar-box {
+	border-color: var(--chrome-content-separator-color) !important;
+}

@@ -1,0 +1,6 @@
+@-moz-document url-prefix("about:") {
+	* {
+		border-radius: 0px !important;
+		font-family: "iA Writer Duo S";
+	}
+}

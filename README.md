@@ -14,7 +14,7 @@ Having [Homebrew](https://brew.sh/) will make your life a lot easier going forwa
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Install zsh (macOS 10.14 and older only) 
+### Install zsh (macOS 10.14 and older only)
 
 zshell is now default with macOS and this step is probably skippable for future me, but just in case it's not around for some reason:
 
@@ -106,8 +106,8 @@ Casks are more akin to full desktop applications rather than command line progra
 
 - [1Password](https://1password.com/)
 - [Raycast](https://raycast.com/)
-- [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
-- [Arc](https://arc.net/)
+- [Hyperkey](https://hyperkey.app/)
+- [LibreWolf](https://librewolf.net/)
 - [Firefox](https://www.mozilla.org/firefox/)
 - [Chrome](https://www.google.com/chrome/)
 - [Edge](https://www.microsoft.com/en-us/edge)
@@ -117,7 +117,7 @@ Casks are more akin to full desktop applications rather than command line progra
 - [Sublime Text](https://www.sublimetext.com/)
 
 ```sh
-brew install --cask 1password raycast karabiner-elements arc firefox google-chrome microsoft-edge discord telegram nova sublime-text
+brew install --cask 1password raycast hyperkey librewolf firefox google-chrome microsoft-edge discord telegram nova sublime-text
 ```
 
 ## Updating
