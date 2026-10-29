@@ -24,13 +24,14 @@ Install [this theme](https://color.firefox.com/?theme=XQAAAAJ5AQAAAAAAAABBKYhm84
 
 ## `about:config`
 
-| Property                                              | Value   |
-| :---------------------------------------------------- | :------ |
-| `browser.newtabpage.enabled`                          | `false` |
-| `browser.toolbars.bookmarks.visibility`               | `never` |
-| `devtools.chrome.enabled`                             | `true`  |
-| `devtools.debugger.remote-enabled`                    | `true`  |
-| `toolkit.legacyUserProfileCustomizations.stylesheets` | `true`  |
+| Property                                              | Value           |
+| :---------------------------------------------------- | :-------------- |
+| `browser.newtabpage.enabled`                          | `false`         |
+| `browser.toolbars.bookmarks.visibility`               | `never`         |
+| `devtools.chrome.enabled`                             | `true`          |
+| `devtools.debugger.remote-enabled`                    | `true`          |
+| `sidebar.visibility`                                  | `hide-launcher` |
+| `toolkit.legacyUserProfileCustomizations.stylesheets` | `true`          |
 
 ## `userChrome.css` and `userContent.css`
 
